@@ -24,6 +24,7 @@ import {
   NARROW_SIDEBAR_WIDTH,
   Path,
   REPO_URL,
+  ISCI,
 } from "../constant";
 
 import { Link, useNavigate } from "react-router-dom";
@@ -217,7 +218,7 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={iscipublishing.org} target="_blank" rel="noopener noreferrer">
+            <a href={ISCI} target="_blank" rel="noopener noreferrer">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
           </div>
